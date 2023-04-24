@@ -15,8 +15,8 @@ name: Build and Deploy Application
 env:
   DEPLOYMENT_NAME: "akssoftwarefactory"
   DEPLOYMENT_REGION: "centralindia"
-  ACR_NAME: "akssoftwarefactory"
-  CLUSTER_NAME: "akssoftwarefactory"
+  ACR_NAME: "petclinicaksacr"
+  CLUSTER_NAME: "aks-cluster"
 
 on:
   # Triggers the workflow on push events on the main branch
